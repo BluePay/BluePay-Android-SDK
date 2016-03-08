@@ -8,6 +8,7 @@ If you plan to accept credit card transactions, it's recommended per PCI complia
 Before you can do any processing, you must enter your Account ID and Secret Key in the BluePayHelper.java class. This helpful video shows you how and where to grab these two values: https://www.bluepay.com/video/locating-your-bluepay-secret-key-and-account-id/?width=640&height=380
 The other two options that you will need to set in the BluePayHelper class is the transaction mode (can be TEST or LIVE) and the transaction type (can be SALE or AUTH).
 The SDK comes with 3 Fragments sitting underneath a FragmentActivity. These Fragments are:
+
 1) Run Payment
  - This shows how to run either an AUTH or a SALE transaction using the user-inputted values for the name, address, credit card #, expiration date, CVV2, and amount. If you have the transaction type set as 'AUTH' in the BluePayHelper class, an authorization will be run after the 'Pay Now' button is selected; a SALE transaction will be run otherwise.
 
@@ -16,6 +17,8 @@ The SDK comes with 3 Fragments sitting underneath a FragmentActivity. These Frag
 
 3) Swipe Card
 - This shows how to use either a IDTech UniMag II or Shuttle mobile card swiper to process a card-present transaction. Once you have connected your IDTech device, enter in the amount and (optionally) the address information, then hit the 'Swipe Card' button. This will prompt you to then swipe the card and you should receive a real-time response from the BluePay gateway after the encrypted card information has been sent. If a bad swipe occurs, you will get an error.
+
+The 'Run Payment' and 'Store Token' Fragments check that the credit card # entered passes the Luhn check algorithm before it is sent to the BluePay gateway. The amount field is checked as well to ensure that the amount is an acceptable value. The CVV2 is also checked for either a 3 or 4 digit number. If you want extra validity for the expiration date, you can implement your own method to make sure that the expiration date entered by the user is not a value that has already expired. 
 
 # Building and running the project
 Clone the git repository to your local machine
