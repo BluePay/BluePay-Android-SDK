@@ -17,3 +17,8 @@ The SDK comes with 3 Fragments sitting underneath a FragmentActivity. These Frag
 3) Swipe Card
 - This shows how to use either a IDTech UniMag II or Shuttle mobile card swiper to process a card-present transaction. Once you have connected your IDTech device, enter in the amount and (optionally) the address information, then hit the 'Swipe Card' button. This will prompt you to then swipe the card and you should receive a real-time response from the BluePay gateway after the encrypted card information has been sent. If a bad swipe occurs, you will get an error.
 
+# Building and running the project
+Clone the git repository to your local machine
+Make sure your Android Studio supports at least SDK version 23
+Import the project into Android Studio: choose Import Project... from the "Welcome to Android Studio" screen. Select the build.gradle file at the top of the stripe-android repository.
+Now, go ahead and build+run the app.
