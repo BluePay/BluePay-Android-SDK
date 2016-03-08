@@ -8,8 +8,8 @@ import java.util.Map;
  * Created by jslingerland on 2/10/2016.
  */
 public class BluePayHelper {
-    private static String accountID = "100013391447"; // Gateway Account ID
-    private static String secretKey = "5YRFNRBCZN/6Y4OPZNWPYDRNAVX7BMMD"; // Gateway Secret Key
+    private static String accountID = "Merchant's Account ID here"; // Gateway Account ID
+    private static String secretKey = "Merchant's Secret Key here"; // Gateway Secret Key
     private static String transactionMode = "TEST"; // Can be either TEST or LIVE
     private static String transactionType = "SALE"; // Can be either SALE or AUTH
 
