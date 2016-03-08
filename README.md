@@ -32,12 +32,11 @@ The SDK comes with 3 Fragments sitting underneath a FragmentActivity. These Frag
 
 The 'Run Payment' and 'Store Token' Fragments check that the credit card # entered passes the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)  before it is sent to the BluePay gateway. The amount field is checked as well to ensure that the amount is an acceptable value. The CVV2 is also checked for either a 3 or 4 digit number. If you want extra validity for the expiration date, you can implement your own method to make sure that the expiration date entered by the user is not a value that has already expired. 
 
-Lastly, make sure that your project grants sufficient permissions to the android device. To do so, edit your AndroidManifest.xml file to have the following permissions
+Lastly, make sure that your project grants sufficient permissions to the android device. To do so, edit your AndroidManifest.xml file to have the following permissions.
 
 ```
+<uses-permission android:name="android.permission.RECORD_AUDIO"/>
 <uses-permission android:name="android.permission.INTERNET"/>
-<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
   ````
 
 # Building and running the project
