@@ -31,7 +31,7 @@ The SDK comes with 3 Fragments sitting underneath a FragmentActivity. These Frag
 The 'Run Payment' and 'Store Token' Fragments check that the credit card # entered passes the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)  before it is sent to the BluePay gateway. The amount field is checked as well to ensure that the amount is an acceptable value. The CVV2 is also checked for either a 3 or 4 digit number. If you want extra validity for the expiration date, you can implement your own method to make sure that the expiration date entered by the user is not a value that has already expired. 
 
 # Building and running the project
-Clone the git repository to your local machine
-Make sure your Android Studio supports at least SDK version 23
-Import the project into Android Studio: choose Import Project... from the "Welcome to Android Studio" screen. Select the build.gradle file at the top of the stripe-android repository.
-Now, go ahead and build+run the app.
+- Clone the git repository to your local machine
+- Make sure your Android Studio supports at least SDK version 23
+- Import the project into Android Studio: choose Import Project... from the "Welcome to Android Studio" screen. Select the build.gradle file at the top of the stripe-android repository.
+- Now, go ahead and build+run the app.
