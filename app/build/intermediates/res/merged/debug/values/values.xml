@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reader_type">
+        <item>UniMag (80110001) / UniMag Pro (80110004)</item>
+        <item>UniMag II (80110008) / Shuttle (80110010)</item>
+    </string-array>
+    <string name="app_name">BluePay Android SDK</string>
+    <string name="cancel">Cancel</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="create">Save</string>
+    <string name="demo_collection">Item Collection</string>
+    <string name="demo_external_activity">External Activity</string>
+    <string name="dummy_section_text">Section %1d</string>
+    <string name="file_name">File name:</string>
+    <string name="location">Location</string>
+    <string name="nnew">New</string>
+    <string name="no_data">No Data</string>
+    <string name="select">Select</string>
+</resources>

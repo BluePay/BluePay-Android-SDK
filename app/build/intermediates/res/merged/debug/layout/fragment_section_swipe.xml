@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:text="Swipe Card"
+        android:id="@+id/btn_swipeCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="162dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/addr1Text"
+        android:layout_below="@+id/linearLayoutBottom"
+        android:layout_alignParentLeft="true"
+        android:text="Addr 1"
+        android:layout_alignRight="@+id/btn_swipeCard" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/addr2Text"
+        android:layout_below="@+id/linearLayoutBottom"
+        android:layout_toRightOf="@+id/addr1Text"
+        android:text="Addr 2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityText"
+        android:text="City"
+        android:layout_below="@+id/addr1Text"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="44dp"
+        android:layout_toLeftOf="@+id/btn_swipeCard" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stateText"
+        android:layout_alignBottom="@+id/cityText"
+        android:layout_toRightOf="@+id/cityText"
+        android:text="State"
+        android:layout_alignRight="@+id/btn_swipeCard" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zipText"
+        android:layout_alignBottom="@+id/stateText"
+        android:layout_alignParentRight="true"
+        android:text="Zip"
+        android:layout_toRightOf="@+id/addr1Text" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/amount"
+        android:layout_below="@+id/cityText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Amount" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/zipText"
+        android:textColor="#67ed5b" />
+
+</RelativeLayout>

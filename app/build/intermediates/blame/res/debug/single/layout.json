@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_collection_demo.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\layout\\activity_collection_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_generatetoken.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\layout\\fragment_section_generatetoken.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_runpayment.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\layout\\fragment_section_runpayment.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_swipe.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\layout\\fragment_section_swipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlgtopview.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\layout\\dlgtopview.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_collection_object.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\layout\\fragment_collection_object.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_dummy.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\layout\\fragment_section_dummy.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlgtopview2bnt.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\layout\\dlgtopview2bnt.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_generatetoken.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\layout\\fragment_section_generatetoken.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_dialog_main.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\layout\\file_dialog_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_launchpad.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\layout\\fragment_section_launchpad.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_runpayment.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\layout\\fragment_section_runpayment.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlgswipetopview.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\layout\\dlgswipetopview.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_swipe.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\layout\\fragment_section_swipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_collection_demo.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\layout\\activity_collection_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_dialog_row.xml",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\layout\\file_dialog_row.xml"
+    }
+]

@@ -1,0 +1,330 @@
+[
+    {
+        "outputFile": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 19,
+                    "endOffset": 234
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endLine": 32,
+                        "endColumn": 19,
+                        "endOffset": 1444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 239,
+                    "endColumn": 56,
+                    "endOffset": 291
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 637,
+                        "endColumn": 56,
+                        "endOffset": 689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 296,
+                    "endColumn": 41,
+                    "endOffset": 333
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1133,
+                        "endColumn": 41,
+                        "endOffset": 1170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 338,
+                    "endColumn": 67,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 933,
+                        "endColumn": 67,
+                        "endOffset": 996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 406,
+                    "endColumn": 39,
+                    "endOffset": 441
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1176,
+                        "endColumn": 39,
+                        "endOffset": 1211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 446,
+                    "endColumn": 59,
+                    "endOffset": 501
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 825,
+                        "endColumn": 59,
+                        "endOffset": 880
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 506,
+                    "endColumn": 68,
+                    "endOffset": 570
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 755,
+                        "endColumn": 68,
+                        "endOffset": 819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 575,
+                    "endColumn": 58,
+                    "endOffset": 629
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 695,
+                        "endColumn": 58,
+                        "endOffset": 749
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 634,
+                    "endColumn": 48,
+                    "endOffset": 678
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1083,
+                        "endColumn": 48,
+                        "endOffset": 1127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 683,
+                    "endColumn": 45,
+                    "endOffset": 724
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 886,
+                        "endColumn": 45,
+                        "endOffset": 927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 729,
+                    "endColumn": 36,
+                    "endOffset": 761
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1002,
+                        "endColumn": 36,
+                        "endOffset": 1034
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 766,
+                    "endColumn": 43,
+                    "endOffset": 805
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1217,
+                        "endColumn": 43,
+                        "endOffset": 1256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 810,
+                    "endColumn": 41,
+                    "endOffset": 847
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1040,
+                        "endColumn": 41,
+                        "endOffset": 1077
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 56,
+                    "endOffset": 107
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 620,
+                        "endColumn": 56,
+                        "endOffset": 672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 112,
+                    "endColumn": 59,
+                    "endOffset": 167
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 807,
+                        "endColumn": 59,
+                        "endOffset": 862
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 172,
+                    "endColumn": 68,
+                    "endOffset": 236
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 738,
+                        "endColumn": 68,
+                        "endOffset": 802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 241,
+                    "endColumn": 58,
+                    "endOffset": 295
+                },
+                "from": {
+                    "file": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            }
+        ]
+    }
+]

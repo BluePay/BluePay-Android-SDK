@@ -1,0 +1,19 @@
+# BluePay-Android-SDK
+SDK for android devices to use the BluePay gateway. Includes swipe support for the IDTech UniMag II and Shuttle.
+BluePay-Android-SDK can be used to process authorizations, sales, generate tokens as $0 authorizations, and process card-present transactions.
+
+If you plan to accept credit card transactions, it's recommended per PCI compliance to use BluePay-Android-SDK to handle this so that sensitive card data never passes through your servers.
+
+# Usage
+Before you can do any processing, you must enter your Account ID and Secret Key in the BluePayHelper.java class. This helpful video shows you how and where to grab these two values: https://www.bluepay.com/video/locating-your-bluepay-secret-key-and-account-id/?width=640&height=380
+The other two options that you will need to set in the BluePayHelper class is the transaction mode (can be TEST or LIVE) and the transaction type (can be SALE or AUTH).
+The SDK comes with 3 Fragments sitting underneath a FragmentActivity. These Fragments are:
+1) Run Payment
+ - This shows how to run either an AUTH or a SALE transaction using the user-inputted values for the name, address, credit card #, expiration date, CVV2, and amount. If you have the transaction type set as 'AUTH' in the BluePayHelper class, an authorization will be run after the 'Pay Now' button is selected; a SALE transaction will be run otherwise.
+
+2) Store Token
+- This shows how to generate a BluePay token so that subsequent transactions against the same card can be issued in the future without having to ask your customer for their payment information again. From the BluePay side of things, this will run a $0.00 AUTH using the credit card, expiration date, and CVV2 entered on this Fragment.
+
+3) Swipe Card
+- This shows how to use either a IDTech UniMag II or Shuttle mobile card swiper to process a card-present transaction. Once you have connected your IDTech device, enter in the amount and (optionally) the address information, then hit the 'Swipe Card' button. This will prompt you to then swipe the card and you should receive a real-time response from the BluePay gateway after the encrypted card information has been sent. If a bad swipe occurs, you will get an error.
+

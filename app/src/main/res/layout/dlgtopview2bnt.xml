@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView android:text=" " android:id="@+id/TView_Info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine = "false" android:gravity="center"></TextView>
+	<TextView android:text=" " android:id="@+id/TView_Blank" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine = "false" android:gravity="center"></TextView>
+	<LinearLayout
+		android:id="@+id/linearLayoutBottom"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	>
+    <Button
+        android:text="      YES      "
+        android:id="@+id/btnYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+    />
+    <Button
+        android:text="      NO      "
+        android:id="@+id/btnNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

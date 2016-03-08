@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\EffectiveNavigation\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\file.png",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\drawable-hdpi\\file.png"
+    },
+    {
+        "merged": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder.png",
+        "source": "C:\\Users\\jslingerland\\AndroidStudioProjects\\BluePay-Android-SDK\\app\\src\\main\\res\\drawable-hdpi\\folder.png"
+    }
+]

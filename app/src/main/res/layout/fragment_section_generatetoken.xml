@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="370dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/linearLayout">
+        <requestFocus/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/cardNumber"
+        android:text="Credit Card #"
+        android:layout_above="@+id/expMonth"
+        android:layout_centerHorizontal="true" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expMonth"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/cardNumber">
+    </NumberPicker>
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expYear"
+        android:layout_below="@+id/cardNumber"
+        android:layout_alignRight="@+id/tokenButton" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/cvv2"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="CVV2"
+        android:layout_below="@+id/expMonth"
+        android:layout_alignLeft="@+id/expMonth">
+    </EditText>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Token"
+        android:id="@+id/tokenButton"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="submit">
+    </Button>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:ems="10"
+        android:id="@+id/name1"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignRight="@+id/expMonth" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:ems="10"
+        android:id="@+id/cityText"
+        android:text="City"
+        android:layout_above="@+id/cardNumber"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:id="@+id/stateText"
+        android:layout_alignTop="@+id/cityText"
+        android:layout_toRightOf="@+id/cityText"
+        android:layout_alignRight="@+id/cardNumber"
+        android:text="State" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/zip"
+        android:text="Zip"
+        android:layout_alignTop="@+id/stateText"
+        android:layout_toRightOf="@+id/cardNumber" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/addr1Text"
+        android:text="Addr 1"
+        android:layout_above="@+id/cityText"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/addr2Text"
+        android:layout_alignTop="@+id/addr1Text"
+        android:layout_alignParentRight="true"
+        android:text="Addr 2"
+        android:layout_above="@+id/stateText"
+        android:layout_toRightOf="@+id/addr1Text" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Last Name"
+        android:ems="10"
+        android:id="@+id/name2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/name1"
+        android:layout_alignRight="@+id/addr2Text" />
+
+
+</RelativeLayout>
