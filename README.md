@@ -5,7 +5,7 @@ BluePay-Android-SDK can be used to process authorizations, sales, generate token
 If you plan to accept credit card transactions, it's recommended per PCI compliance to use BluePay-Android-SDK to handle this so that sensitive card data never passes through your servers.
 
 # Usage
-Before you can do any processing, you must enter your Account ID and Secret Key in the BluePayHelper.java class. This helpful video shows you how and where to grab these two values: https://www.bluepay.com/video/locating-your-bluepay-secret-key-and-account-id/?width=640&height=380
+Before you can do any processing, you must enter your Account ID and Secret Key in the BluePayHelper.java class. This [helpful video](https://www.bluepay.com/video/locating-your-bluepay-secret-key-and-account-id/?width=640&height=380) shows you how and where to grab these two values: 
 The other two options that you will need to set in the BluePayHelper class is the transaction mode (can be TEST or LIVE) and the transaction type (can be SALE or AUTH).
 The SDK comes with 3 Fragments sitting underneath a FragmentActivity. These Fragments are:
 
