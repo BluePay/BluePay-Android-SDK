@@ -18,7 +18,7 @@ The SDK comes with 3 Fragments sitting underneath a FragmentActivity. These Frag
 3) Swipe Card
 - This shows how to use either a IDTech UniMag II or Shuttle mobile card swiper to process a card-present transaction. Once you have connected your IDTech device, enter in the amount and (optionally) the address information, then hit the 'Swipe Card' button. This will prompt you to then swipe the card and you should receive a real-time response from the BluePay gateway after the encrypted card information has been sent. If a bad swipe occurs, you will get an error.
 
-The 'Run Payment' and 'Store Token' Fragments check that the credit card # entered passes the Luhn check algorithm before it is sent to the BluePay gateway. The amount field is checked as well to ensure that the amount is an acceptable value. The CVV2 is also checked for either a 3 or 4 digit number. If you want extra validity for the expiration date, you can implement your own method to make sure that the expiration date entered by the user is not a value that has already expired. 
+The 'Run Payment' and 'Store Token' Fragments check that the credit card # entered passes the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)  before it is sent to the BluePay gateway. The amount field is checked as well to ensure that the amount is an acceptable value. The CVV2 is also checked for either a 3 or 4 digit number. If you want extra validity for the expiration date, you can implement your own method to make sure that the expiration date entered by the user is not a value that has already expired. 
 
 # Building and running the project
 Clone the git repository to your local machine
