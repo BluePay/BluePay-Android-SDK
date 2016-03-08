@@ -35,7 +35,6 @@ The 'Run Payment' and 'Store Token' Fragments check that the credit card # enter
 Lastly, make sure that your project grants sufficient permissions to the android device. To do so, edit your AndroidManifest.xml file to have the following permissions
 
 ```
-
 <uses-permission android:name="android.permission.INTERNET"/>
 <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
