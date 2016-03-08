@@ -7,14 +7,11 @@ If you plan to accept credit card transactions, it's recommended per PCI complia
 # Usage
 Before you can do any processing, you must enter your Account ID and Secret Key in the BluePayHelper.java class. This [helpful video](https://www.bluepay.com/video/locating-your-bluepay-secret-key-and-account-id/?width=640&height=380) shows you how and where to grab these two values: 
 The other two options that you will need to set in the BluePayHelper class is the transaction mode (can be TEST or LIVE) and the transaction type (can be SALE or AUTH).
-`public class BluePayHelper {
-
+`
+public class BluePayHelper {
     private static String accountID = "Merchant's Account ID here"; // Gateway Account ID
-    
     private static String secretKey = "Merchant's Secret Key here"; // Gateway Secret Key
-    
     private static String transactionMode = "TEST"; // Can be either TEST or LIVE
-    
     private static String transactionType = "SALE"; // Can be either SALE or AUTH
     `
     
