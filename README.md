@@ -2,7 +2,7 @@
 This SDK is used for android devices in conjuction with the BluePay gateway. Includes swipe support for the IDTech UniMag II and Shuttle.
 BluePay-Android-SDK can be used to process authorizations, sales, generate tokens as $0 authorizations, and process card-present transactions.
 
-If you plan to accept credit card transactions, it's recommended per PCI compliance to use BluePay-Android-SDK to handle this so that sensitive card data never passes through your servers.
+If you plan to accept credit card transactions, it's recommended per PCI compliance to use BluePay-Android-SDK to handle this so that sensitive card data never passes through your server.
 
 Since this SDK works with the BluePay gateway, you will need a gateway account to utilize the SDK. [Click here](https://www.bluepay.com/contact-us/request-sandbox-account/) if you'd like to request a sandbox account
 
