@@ -739,7 +739,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                 adjustTextView();
                 myUniMagReader.WriteLogIntoFile(hexString.toString());
                 // Get encrypted track 1 data from swipe
-                encTrack1 = hexString.substring(hexString.lastIndexOf("3f2a") + 4);
+                String hex = hexString.toString().toUpperCase();
+                encTrack1 = hex.substring(hex.lastIndexOf("3F2A") + 4);
 
                 submit(findViewById(R.id.btn_swipeCard));
             }
