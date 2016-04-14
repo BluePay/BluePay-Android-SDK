@@ -9,7 +9,7 @@ Since this SDK works with the BluePay gateway, you will need a gateway account t
 # Usage
 Before you can do any processing, you must enter your Account ID and Secret Key in the BluePayHelper.java class. This [helpful video](https://www.bluepay.com/video/locating-your-bluepay-secret-key-and-account-id/?width=640&height=380) shows you how and where to grab these two values.
 The other two options that you will need to set in the BluePayHelper class is the transaction mode (can be TEST or LIVE) and the transaction type (can be SALE or AUTH).
-```
+```java
 public class BluePayHelper {
 
     private static String accountID = "Merchant's Account ID here"; // Gateway Account ID
